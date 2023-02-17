@@ -1,0 +1,338 @@
+/*
+body{
+    
+    background-color: rgb(32, 30, 30);
+}
+
+.faqs{
+    max-width: 600px;
+    margin: 0 auto;
+    
+}
+
+.faqs .questions{
+    box box-shadow: ;
+}
+
+h2{
+    padding: 10px 80px ;
+   
+}
+
+.faq-header{
+    width: 100%;
+    outline-color: transparent;
+    padding: 20px;
+    font-size: 15px;
+    display: flex;
+    background-color: #7c1010;
+    color: #c7c2c2;
+    align-items: center;
+    position: relative;
+    cursor: pointer;
+    
+}
+
+.close {
+    position: absolute;
+    right: 8%;
+    padding: -2,0px;
+    font-weight: bold;
+    transform: translateY(px);
+    opacity: 1;
+    transition:  1s;
+    float: right;
+    
+}
+.open {
+    position: absolute;
+    right: 8%;
+    padding: 0px;
+    font-weight: bold;
+    transform: translateY();
+    opacity: 1;
+    transition:all 1s;
+}
+
+.open.active{
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.close.active{
+    opacity: 1;
+    transform: translateY(0);
+}
+
+h3{
+    font-size: 20px;
+    padding: 5px 40px;
+}
+
+.ans-content{
+    padding: 0px 20px;
+    color: azure;
+    line-height: 2;
+    max-height: 0;
+    overflow: hidden;
+    
+}
+.ans-content{
+    opacity: 1;
+    transform: translateY(0);
+
+}
+*/
+
+body{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #000000;
+}
+
+body h2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: aliceblue;
+    padding: 10px 80px ;
+    font-size: 30px;
+   
+}
+
+button{
+    background-color: #690a0a;
+}
+.accordion {
+    color: #c2bdbd;
+    cursor: pointer;
+    padding: 12px;
+    width: 50%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 20px;
+    transition: 0.4s;
+    display: flex;
+    position: relative;
+    align-items: center;
+  }
+  
+  .active, .accordion:hover {
+    background-color: #c51c1c; 
+  }
+  
+  .panel {
+    font-size: 17px;
+    color:#a7a1a1;
+    margin-right: 0px;
+    padding: 0 18px;
+    display: none;
+    background-color: #000000;
+    overflow: hidden;
+    width: 50%;
+  }
+
+.image-area {
+    width: -5000px;
+    height: 800px;
+  }
+  
+
+
+section{
+    width: 100%;
+    background-color: #b9211b;
+    height: 900px;
+
+}
+
+section::before{
+    content: '';
+    position: absolute;
+    left: 0;
+    width: 50%;
+    height: 900px;
+    background-color: #6d3636;
+    z-index: ;
+
+}
+
+.form-area{
+    position:relative ;
+    min-width: 0px;
+    min-height: 5px;
+    display: flex;
+    justify-content: center;
+    height: 600px;
+    width: 900px;
+    top: 100px;
+    left: 100px;
+
+    
+}
+
+.contacts{
+    width: 40%;
+    top: 20px;
+    height: 500px;
+    right: 550px;
+    background-color: #b9211b;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    justify-content: space-between;
+    position: absolute;
+    box-shadow: 0 20px 25px rgba(0, 0, 0, 0.35);
+   z-index:     1;
+   color: #fff;
+
+}
+
+.contacts, h2{
+    color: #ffffff;
+    display: block;
+    font-size: 20px;
+    
+}
+
+.contacts, ul{
+    position: absolute;
+    margin: 0px 0px;
+}
+
+.contacts, ul li{
+    margin: 40px;
+    list-style: none;
+    cursor: pointe;
+}
+
+
+
+
+
+
+.message{
+    position: absolute;
+    padding: 70px 50px;
+    padding-left: 250px;
+    margin-left: 150px;
+    height: 360px;
+    background-color: white;
+    width: 600px;
+    
+}
+
+.message h2{
+    display: flex;
+    justify-content: center;
+    color: #000;
+}
+
+.formbox{
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.boxsmall{
+    margin: 20px;
+
+}
+
+.boxsmall.w50 input{
+    width: 250px;
+    border-radius: 4px;
+    background-color: #f3f2f1;
+    
+}
+input{
+    outline: none;
+    border-top: 1px;
+    border-right: 1px;
+    border-left: 1px;
+}
+
+textarea{
+    height: 100px;
+    width: 250px ;
+    
+}
+
+.formbox button{
+    margin: 60px;
+    height: 50px;
+    width: 150px;
+    border-radius: 10px;
+    color: #000;
+    cursor: pointer;
+    border-width: 0px;
+    background-color: #b9211b;
+}
+.formbox button:hover{
+    background-color: #6d3636;
+    color: #fff;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.fa{
+    font-size: 50px;
+    color: #000000;
+
+
+}
+
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+  }
+
+
+
+
+
+/*
+.container{
+    width: 100%;
+    background-color: #690a0;
+    height: 100px;
+
+}
+
+.in-container{
+    width: 50%;
+    background-color: #6d3636;
+    height: 800px;
+
+}
+/*
+.form-area{
+    position: relative;
+    min-width: 0px;
+    min-height: 5px;
+    background-color: aliceblue;
+    display: flex;
+    justify-content: center;
+    height: 200px;
+    z-index: 1;
+}
+
+.contacts{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    width: 30%;
+    height: -50px;
+
+}
